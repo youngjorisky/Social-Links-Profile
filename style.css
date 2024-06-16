@@ -1,0 +1,134 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    margin: 10%;
+    background-color: hsl(0, 0%, 12%);
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid hsl(0, 0%, 12%);
+    border-radius: 10px;
+    margin: 0;
+}
+img{
+    border-radius: 50% 50%;
+    width: 23%;
+    margin-bottom: 5%;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+h3{
+    margin-top: 1%;
+    color: hsl(75, 94%, 57%);
+}
+.container h3:nth-of-type(2) {
+    color: hsl(0, 0%, 100%, 0.7);
+    font-size: medium;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 55%;
+    margin-bottom: -8%;
+    margin-left: 15%;
+    margin-top: 3%;;
+  }
+  .buzz{
+    margin-bottom: 5%;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    background-color: hsl(0, 0%, 20%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+  }
+  .attribution{
+    color: white;
+  }
+@media (min-width: 375px){
+    .container{
+        margin: 10%;
+        background-color: hsl(0, 0%, 12%);
+        width: 25%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid hsl(0, 0%, 12%);
+        border-radius: 10px;
+        margin: 0;
+    }
+    img{
+        margin-top: -2%;
+        border-radius: 50% 50%;
+        width: 23%;
+        margin-bottom: 5%;
+    }
+    h1{
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 0%;
+        margin-top: 2%;
+    }
+    h3{
+        margin-top: 1%;
+        color: hsl(75, 94%, 57%);
+    }
+    .container h3:nth-of-type(2) {
+        color: hsl(0, 0%, 100%, 0.7);
+        font-size: medium;
+      }
+      .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        height: 55%;
+        margin-bottom: -8%;
+        margin-left: 15%;
+        margin-top: 3%;;
+      }
+      .buzz{
+        margin-bottom: 5%;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        background-color: hsl(0, 0%, 20%);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        color: hsl(0, 0%, 100%);
+        font-weight: 900;
+      }
+      .attribution{
+        color: white;
+      }
+    }
+
